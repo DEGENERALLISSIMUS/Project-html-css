@@ -107,13 +107,30 @@ margin-right: 15px;
 	width: 70px;
 	height: 70px;
 }
-.bg-img-after-panel {
-	
-	background-image: url(https://psv4.userapi.com/c240331/u236677933/docs/d25/d307fd837084/nout-png.png?extra=QouFqgYuVrsX3zfui2imGsv3ID78g-oeCc8ag_NdhpwngpSjAjf_M_hZj4w65SZbfYJRWaFn04NZYDDFwJdjn9-mN0FfE0v1T6ApvKJWUlRFeeoJIpfhCTWUhKYZ1wMX6wC9p7sjTLuL9NzJc7Ll-KFi);
-	
-	height: 1000px;
-	background-size: cover;
-	
+.block-img-after-panel {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.img-after-panel {
+	width: 1000px;
+	height: 700px;
 }
 .text {
+	position: absolute;
+	color: white;
+	bottom: 100px;
+	font-family: 'Halvar Breitschrift';
 }
+
+.p-1 span{
+	color:gold;
+}
+
+.p-1{
+	font-size: xx-large;
+	width: 1000px;
+	margin-bottom: 20px;
+}
+
+
