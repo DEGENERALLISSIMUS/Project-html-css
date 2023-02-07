@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.active-catalog{
+    font-family: 'Halvar Breitschrift';
+}
+
+body{
+    background-color:black ;
+}
+header{
+	display: flex;
+	justify-content: center;
+	
+}
+header .content{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border-bottom: 2px solid burlywood;
+	position: relative;
+	max-width: auto;
+	align-items: center;
+}
+
+.content a, .content div a{
+font-family: 'Halvar Breitschrift';
+text-decoration: none;
+}
+.content a{
+	
+}
+.logo, a{
+	padding: 15px;
+}
+.buttons{
+	display: flex;
+	margin-left: 200px;
+	}
+.tg-btn{
+	border: 1px solid;
+	border-radius: 10px;
+	width: 205px;
+	padding-top: 15px;
+	text-align: center;
+color: white;
+margin-right: 15px;
+}
+.navigation-panel{
+	display: flex;	
+}
+.navigation-panel a{
+	color: white;
+}
+.order-btn{
+	color: black;
+	background-color: yellow;
+    border-radius: 10px;
+	width: 200px;
+	align-items: center;
+	margin-top: 3px;
+}
+.logo{
+	width: 70px;
+	height: 70px;
+}
+.bg-img-after-panel {
+	
+	background-image: url(https://psv4.userapi.com/c240331/u236677933/docs/d25/d307fd837084/nout-png.png?extra=QouFqgYuVrsX3zfui2imGsv3ID78g-oeCc8ag_NdhpwngpSjAjf_M_hZj4w65SZbfYJRWaFn04NZYDDFwJdjn9-mN0FfE0v1T6ApvKJWUlRFeeoJIpfhCTWUhKYZ1wMX6wC9p7sjTLuL9NzJc7Ll-KFi);
+	
+	height: 1000px;
+	background-size: cover;
+	
+}
+.text {
+}
