@@ -50,6 +50,7 @@ table {
 
 body{
     background-color:black ;
+	font-family: 'Halvar Breitschrift';
 }
 header{
 	display: flex;
@@ -64,14 +65,15 @@ header .content{
 	position: fixed;
 	max-width: auto;
 	align-items: center;
+	z-index: 10;
 }
 
 .content a, .content div a{
 font-family: 'Halvar Breitschrift';
 text-decoration: none;
 }
-.content a{
-	
+.content{
+	background-color: black;
 }
 .logo, a{
 	padding: 15px;
@@ -132,5 +134,120 @@ margin-right: 15px;
 	width: 1000px;
 	margin-bottom: 20px;
 }
+/* .corousel{
+	margin-top: 100px;
+	margin-bottom: 200px;
+	align-items: center;
+	display: flex;
+}
+.name-corousel{
+	color: white;
+	font-size:xx-large;
+	margin-left: 215px;
+	margin-bottom: 40px;
+	display: flex;	
+}
+.products-corousel{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img-product{
+	width: 200px;
+	height: 200px;
+	margin-left: 50px;
+}
+.card-product{
+	margin-left: 70px;
+	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614289136_4-p-chernii-kholst-fon-4.jpg);
+	border: 2px;
+	border-radius: 2px;
+	align-content: center;
+}
+.name-product {
+	margin: 30px;
+}
+.category {
+	color: gray;
+	margin-bottom: 25px;
+	font-size: small;
+}
+.model {
+	color: white;
+	margin-bottom: 10px;
+	font-size: x-large;
+}
+.price {
+	color: darkgray;
+	margin-bottom: 10px;
+}
+.arrow-left{
+	width: 100px;
+	height: 100px;
+}
+.arrow-right{
+	width: 50px;
+	height: 50px;
+}
 
+ */
+
+ .carousel {
+	margin-top: 100px;
+}
+.conteiner {
+	margin-left: 200px;
+}
+.name-corousel {
+	color: white;
+	font-size: xx-large;
+	margin-bottom: 30px;
+}
+.content {
+	margin-left: -50px;
+}
+.arrow-left {
+	font-size: xx-large;
+	color: azure;
+	
+}
+.product-cards {
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+.product-card, .arrow-left, .arrow-right{
+	margin-right: 30px;
+	background-image: url(https://mnogoplitki.com/upload/iblock/010/main-_1_.jpg);
+}
+.product-card{
+	background-image: url(https://mnogoplitki.com/upload/iblock/010/main-_1_.jpg);
+}
+.img-product{
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+}
+.product {
+	margin-left: 10px;
+	margin-bottom: 45px;
+}
+.category {
+	color: dimgray;
+	font-size: small;
+	margin-bottom: 10px;
+}
+.model {
+	color: azure;
+	font-size: larger;
+	margin-bottom: 5px;
+}
+.price {
+	color: gray;
+}
+.arrow-right {
+	color: beige;
+	font-size: xx-large;
+	background-color: black;
+}
 
