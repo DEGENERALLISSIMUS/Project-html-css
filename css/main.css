@@ -339,19 +339,23 @@ margin-right: 15px;
 
 .our-projects {
 }
+.name-our-projects{
+	color: white;
+	margin-bottom: 20px;
+	font-size:xx-large ;
+}
 .content-our-projects {
-	margin-left: 300px;
+	
 	margin-top: 100px;
 }
 .first-string {
 	display: flex;
-	width: 1052px;
 	height: 300px;
 	margin-bottom: 5px;
 }
 .project-card-most-width-1 {
 	flex: 2;
-	margin-right: 6px;
+	margin-right: 5px;
 	background: linear-gradient(45deg, #EECFBA, #C5DDE8);
 	display: grid;
 	align-items: end;
@@ -365,10 +369,11 @@ margin-right: 15px;
 	font-size: small;
 	color: black;
 		margin: 20px;
-		width: 450px;
+		width: 300px;
 }
 .defoult-project-card-2 {
 	flex: 1;
+	margin-left: 0px;
 	background: repeating-radial-gradient(circle, #B9ECFE, #B9ECFE 10px, #82DDFF 10px, #82DDFF 20px);
 	display: grid;
 	align-items: end;
@@ -387,7 +392,7 @@ margin-right: 15px;
 }
 .second-string {
 	display: flex;
-	width: 1050px;
+	
 	height: 300px;
 	margin-bottom: 5px;
 }
@@ -413,7 +418,6 @@ margin-right: 15px;
 }
 .third-string {
 	display: flex;
-	width: 1050px;
 	height: 300px;
 	margin-bottom: 5px;
 }
@@ -436,4 +440,87 @@ margin-right: 15px;
 	background: radial-gradient(circle at 65% 15%, aqua, pink);
 	display: grid;
 	align-items: end;
+}
+.conteiner{
+	max-width: 1250px;
+	margin: auto;
+}
+
+
+.contacts {
+	margin-top: 50px;
+}
+.name-block-contacts {
+	color: white;
+	font-size: xx-large;
+	margin-bottom: 20px;
+}
+.navigation-panel-contacts{
+	display: flex;
+	justify-content: center;
+	border-bottom: 2px solid dimgrey;
+	margin-bottom: 10px;
+}
+.navigation-panel-contacts a{
+	text-align: center;
+	flex: 1;
+	color: white;
+	text-decoration: none;
+}
+
+.map {
+	
+}
+.main-block-text-contacts {
+	
+	color: white;
+}
+.contacts-country {
+	margin-bottom: 10px;
+	font-size: x-large;
+}
+.contacts-adress {
+	font-size: x-large;
+	margin-bottom: 30px;
+
+}
+.contacts-for-telnumber {
+	
+	font-size:large;
+}
+.contacts-telnumber {
+	font-size:large;
+	margin-bottom: 30px;
+}
+.contacts-schedule {
+	font-size:large;
+}
+.contacts-schedule-time {
+	font-size:large;
+}
+.contacts-social-web {
+	
+}
+.fa-brands {
+	color: gold;
+}
+.fa-instagram {
+}
+.fa-telegram {
+}
+.display-flex{
+	display: flex;
+}
+.main-block-text-contacts{
+}
+.small-contacts-block-map-text-1{
+	height: 200px;
+}
+.small-contacts-block-map-text-2{
+	height: 200px;
+	display: grid;
+	align-items: end;
+}
+.small-contacts-block-map-text-main{
+	
 }
